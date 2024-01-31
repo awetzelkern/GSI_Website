@@ -1,12 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>GSI_Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[Club Name] Website</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>hi!!</h1>
-</body>
-</html>
+  <header>
+    <div class="container">
+      <nav>
+        <a href="#home" class="logo">
+          <img src="[Image of club logo]" alt="[Club name] logo">
+        </a>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#activities">Activities</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container">
+      <h1>[Club name]</h1>
+      <p>[Short description of your club and its purpose]</p>
+      <a href="#join" class="button">Join Us!</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>[Detailed description of your club, its history, mission, and values]</p>
+      <img src="[Image representing your club]" alt="[Description of image]">
+      <p>[Additional information about your club, its members, and achievements]</p>
+    </div>
+  </section>
+
+  <section id="activities">
+    <div class="container">
+      <h2>Activities</h2>
+      <div class="activities-grid">
+        <div class="activity">
+          <h3>[Activity name 1]</h3>
+          <p>[Brief description of activity 1]</p>
+          <a href="#activity1" class="button">Learn More</a>
+        </div>
+        <div class="activity">
+          <h3>[Activity name 2]</h3>
+          <p>[Brief description of activity 2]</p>
+          <a href="#activity2" class="button">Learn More</a>
+        </div>
+        <div class="activity">
+          <h3>[Activity name 3]</h3>
+          <p>[Brief description of activity 3]</p>
+          <a href="#activity3" class="button">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="events">
+    <div class="container">
+      <h2>Upcoming Events</h2>
+      <ul class="events-list">
+        <li>
+          <h4>[Event name 1]</h4>
+          <p>[Date and time of event 1]</p>
+          <p>[Brief description of event 1]</p>
+          <a href="#event1" class="button">Register Now</a>
+        </li>
+        <li>
+          <h4>[Event name 2]</h4>
+          <p>[Date and time of event 2]</p>
+          <p>[Brief description of event 2]</p>
+          <a href="#event2" class="button">Register Now</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="join" class="join-us">
+    <div class="container">
+      <h2>Join Us!</h2>
+      <p>[Benefits of joining your club]</p>
+      <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; [Year] [Club name]</p>
+      <ul class="social-media">
+        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
